@@ -1,7 +1,86 @@
 # miniprojectDADS5001
 Mini-Project  DADS5001  Data Analytics and Data Science Tools and Programming.
 Project by Witsarut Wongsim DADS2  6420422017
+# Library and Install
 
+```python
+pip install Shapely
+pip install geopandas
+pip install joypy
+
+!wget -q http://www.arts.chula.ac.th/ling/wp-content/uploads/TH-Sarabun_Chula1.1.zip -O font.zip
+!unzip -qj font.zip TH-Sarabun_Chula1.1/THSarabunChula-Regular.ttf
+# !pip install -U --pre matplotlib  
+import matplotlib as mpl
+mpl.font_manager.fontManager.addfont('THSarabunChula-Regular.ttf')
+mpl.rc('font', family='TH Sarabun Chula')
+
+import pandas as pd
+import numpy as np
+import plotly.express as px
+from matplotlib.patches import Rectangle
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+from shapely.geometry import Point
+import geopandas as gpd
+from geopandas import GeoDataFrame
+from geopy.geocoders import Nominatim
+import seaborn as sns
+from matplotlib import pyplot as plt
+```
+
+#Raw Data
+RangeIndex: 23604 entries, 0 to 23603
+Data columns (total 45 columns):
+ #   Column                  Non-Null Count  Dtype  
+---  ------                  --------------  -----  
+ 0   row_number              23599 non-null  float64
+ 1   project_id              23604 non-null  object 
+ 2   name_en                 23604 non-null  object 
+ 3   name_th                 23604 non-null  object 
+ 4   propertytype_id         23604 non-null  object 
+ 5   propertytype_name_en    23604 non-null  object 
+ 6   propertytype_name_th    23604 non-null  object 
+ 7   price_min               23489 non-null  object 
+ 8   developer_id            23604 non-null  object 
+ 9   developer_name_en       10896 non-null  object 
+ 10  developer_name_th       14837 non-null  object 
+ 11  latitude                23604 non-null  float64
+ 12  longitude               23599 non-null  float64
+ 13  neighborhood_id         19373 non-null  object 
+ 14  neighborhood_name_en    19374 non-null  object 
+ 15  neighborhood_name_th    19368 non-null  object 
+ 16  subdistrict_id          23584 non-null  float64
+ 17  subdistrict_name_en     23589 non-null  object 
+ 18  subdistrict_name_th     23587 non-null  object 
+ 19  district_id             23594 non-null  float64
+ 20  district_name_en        23594 non-null  object 
+ 21  district_name_th        23594 non-null  object 
+ 22  province_id             23595 non-null  float64
+ 23  province_name_en        23594 non-null  object 
+ 24  province_name_th        23594 non-null  object 
+ 25  zipcode                 23571 non-null  float64
+ 26  count_elevator          1896 non-null   object 
+ 27  count_elevator_service  611 non-null    object 
+ 28  count_floor             4727 non-null   object 
+ 29  count_parking           2014 non-null   object 
+ 30  count_tower             5 non-null      object 
+ 31  count_unit              21685 non-null  float64
+ 32  count_unittype          18597 non-null  float64
+ 33  facility_clubhouse      6796 non-null   float64
+ 34  facility_fitness        8912 non-null   float64
+ 35  facility_meeting        2779 non-null   float64
+ 36  facility_park           11744 non-null  float64
+ 37  facility_playground     6218 non-null   float64
+ 38  facility_pool           9740 non-null   float64
+ 39  facility_security       16261 non-null  float64
+ 40  date_created            23594 non-null  object 
+ 41  date_finish             20884 non-null  object 
+ 42  date_updated            23594 non-null  object 
+ 43  source                  23594 non-null  object 
+ 44  url_project             23594 non-null  object 
+dtypes: float64(16), object(29)
+memory usage: 8.1+ MB
 # References
 # 1. Numpy
 https://numpy.org/doc/stable/user/quickstart.html
