@@ -1,10 +1,8 @@
 # miniprojectDADS5001
 Mini-Project  DADS5001  Data Analytics and Data Science Tools and Programming.
-
-
+Project by Witsarut Wongsim DADS2  6420422017
 
 References
-0. OpenRefine: https://openrefine.org/
 1. Numpy
 https://numpy.org/doc/stable/user/quickstart.html
 https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf
