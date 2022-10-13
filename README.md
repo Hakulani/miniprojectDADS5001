@@ -30,6 +30,7 @@ from matplotlib import pyplot as plt
 ```
 
 #Raw Data
+```
 RangeIndex: 23604 entries, 0 to 23603
 Data columns (total 45 columns):
  #   Column                  Non-Null Count  Dtype  
@@ -80,7 +81,8 @@ Data columns (total 45 columns):
  43  source                  23594 non-null  object 
  44  url_project             23594 non-null  object 
 dtypes: float64(16), object(29)
-memory usage: 8.1+ MB
+```
+
 # References
 # 1. Numpy
 https://numpy.org/doc/stable/user/quickstart.html
