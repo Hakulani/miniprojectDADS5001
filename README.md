@@ -2,17 +2,18 @@
 Mini-Project  DADS5001  Data Analytics and Data Science Tools and Programming.
 Project by Witsarut Wongsim DADS2  6420422017
 
-References
-1. Numpy
+# References
+# 1. Numpy
 https://numpy.org/doc/stable/user/quickstart.html
 https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf
-2. Pandas
+# 2. Pandas
 https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
 https://pandastutor.com/
-3. Visualization
-3.1 MatPlotLib https://matplotlib.org/stable/tutorials/index.html
-3.2 GeoPandas Mapping and Plotting Tools https://geopandas.org/en/stable/docs/user_guide/mapping.html
-4.Dataset
+# 3. Visualization
+- 3.1 MatPlotLib https://matplotlib.org/stable/tutorials/index.html
+- 3.2 GeoPandas Mapping and Plotting Tools https://geopandas.org/en/stable/docs/user_guide/mapping.html
+
+# 4.Dataset
 4.1 Bannai.com via facebook post https://web.facebook.com/dataholicth/photos/a.110167148353487/145014661535402/
 source https://gobestimate.com/data?fbclid=IwAR1VAJP5mLxHPr4ia8BZBpqMd790CAmUPU-lmLQKzHmiJOgMBmWXCSSOLeo
 copy  https://docs.google.com/spreadsheets/d/1zEu6Lrk7LTGL3ukbJR7UwZf8f04hSeuOrIvdc2ClWyw/edit?fbclid=IwAR1IcEkPwaC_W-Gl3WXwANVj7T-Eo8bx9a8m6L4o-G7GqJvf7cRO1O2dRI0#gid=722411706
