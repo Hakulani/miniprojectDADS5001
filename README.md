@@ -105,8 +105,10 @@ dtypes: float64(16), object(29)
 
 3.ราคาคอนโดชลบุรีและนครราชสีมาหากเรียงตาม mean และ median น่าจะติด TO10 แพงที่สุดในประเทศ<br />
 คำตอบคือใช่แต่อันดับ 1 กาญจนบุรี ไม่น่าจะถูกต้อง<br />
-![image](https://user-images.githubusercontent.com/61573397/195838685-57c8bf1b-0c13-45dd-9754-ffe39eb8a32f.png)
+![image](https://user-images.githubusercontent.com/61573397/195843879-85fdc7b7-f000-4e9b-ae79-a999c2b9071c.png)
+
 median และ mean descending นครราชสีมาอันดับ 7 อันดับ 8 ชลบุรี สำหรับอันดับ 1 กาญจนบุรี มีเพียง 1 โครงการ ราคา 9.9 ล้าน ซึ่งเมื่อทำการหาข้อมูลเพิ่มเติม ก็เจอว่าราคาจริงคือ 9.9แสน<br />
+
 ![image](https://user-images.githubusercontent.com/61573397/195841753-e58f236d-d740-4deb-885c-9d8974c22144.png)
 
 ![image](https://user-images.githubusercontent.com/61573397/195840323-5fb1d399-53e2-4b16-84fd-4c26177c87e8.png)
