@@ -29,7 +29,8 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 ```
 
-# Raw Data
+# Raw Dataset
+45 columns  23599 rows
 ```
 RangeIndex: 23604 entries, 0 to 23603
 Data columns (total 45 columns):
