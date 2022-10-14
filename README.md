@@ -31,7 +31,7 @@ from matplotlib import pyplot as plt
 ```
 
 # Raw Dataset
-45 columns  23599 rows
+Dataset มีจำนวน 23604 rows , 45 columns เป็นข้อมูลที่เกี่ยวกับอสังหาอย่างเช่น ราคา ประเภทอสังหา เขต จังหวัด ละติจูด ลองติจูด เป็นต้น
 ```
 RangeIndex: 23604 entries, 0 to 23603
 Data columns (total 45 columns):
