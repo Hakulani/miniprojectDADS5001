@@ -88,23 +88,42 @@ dtypes: float64(16), object(29)
 เนื่องจากเขียนเป็นบทความสามารถเข้าไปอ่านใน medium > https://medium.com/@row3no6/big-data-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%AD%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%9E%E0%B8%A2%E0%B9%8C%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-data-visualization-f17c079f4d67 
 1.ราคาอสังหาริมทรัพย์น่าจะมีการแจกแจงแบบ Normal<br />
 คำตอบ คือมีลักษณะการกระจายตัวแบบไม่เป็น Normal แต่เป็นลักษณะเบ้ขวาและเมื่อดูจากทางด้านขวามี outlier<br />
+![image](https://user-images.githubusercontent.com/61573397/195838421-9472cdfb-2c26-4674-a4e3-f7a36350837c.png)
 ![image](https://user-images.githubusercontent.com/61573397/195838254-b0a09ed5-5fc7-40ce-923b-3f69831914f4.png)
 
 2.ราคาบ้านเดี่ยว >บ้านแฝด>ทาวโฮม>คอนโด ทั้งในกรุงเทพ ปริมณฑล และต่างจังหวัด<br />
-คำตอบคือ ในกรุงเทพ บ้านเดียว>บ้านแฝด> ทาวโฮม>คอนโด แต่ในจังหวัดระยองพบว่าราคาแต่ละประเภทไม่ได้แตกต่างกันมากเมื่อเทียบกับกรุงเทพ<br />
+คำตอบคือ ในกรุงเทพ บ้านเดียว>บ้านแฝด> ทาวโฮม>คอนโด
+![image](https://user-images.githubusercontent.com/61573397/195838527-d64780ee-90fa-4a39-8b63-cb8c297c62dc.png)
+แต่ในจังหวัดระยองพบว่าราคาแต่ละประเภทไม่ได้แตกต่างกันมากเมื่อเทียบกับกรุงเทพ<br />
+https://miro.medium.com/max/1100/1*rQT9mlnK_VfskqsE1oTvTQ.png
 และจังหวัดนครราชสีมา และชลบุรี ราคาคอนโดค่อนข้างสูงเมื่อเทียบกับอสังหาประเภทอื่น  <br />
+https://miro.medium.com/max/1100/1*RPhPagdxfZqgfEs_C6eEVA.jpeg
 3.ราคาคอนโดชลบุรีและนครราชสีมาหากเรียงตาม mean และ median น่าจะติด TO10 แพงที่สุดในประเทศ<br />
 คำตอบคือใช่แต่อันดับ 1 กาญจนบุรี ไม่น่าจะถูกต้อง<br />
+![image](https://user-images.githubusercontent.com/61573397/195838685-57c8bf1b-0c13-45dd-9754-ffe39eb8a32f.png)
 median และ mean descending นครราชสีมาอันดับ 7 อันดับ 8 ชลบุรี สำหรับอันดับ 1 กาญจนบุรี มีเพียง 1 โครงการ ราคา 9.9 ล้าน ซึ่งเมื่อทำการหาข้อมูลเพิ่มเติม ก็เจอว่าราคาจริงคือ 9.9แสน<br />
+https://miro.medium.com/max/1100/1*jjURHGD0sfwrbNdl2GS0Rg.png
+![image](https://user-images.githubusercontent.com/61573397/195838780-0ddf6c69-5bc4-4950-a2e4-cc2d96123586.png)
 4.ราคาบ้านเดี่ยว บ้านแฝดและทาวโฮม เรียงตาม median กรุงเทพน่าจะสูงที่สุด<br />
 บ้านเดี่ยว อันดับ 1   คือพังงา med 49.5 MB โครงการมูลค่าสูง อันดับ 2 กระบี่ ส่วนกรุงเทพมาในอันดับ 3<br />
+![image](https://user-images.githubusercontent.com/61573397/195838826-f242efcc-3545-4814-b6bc-b88a63c57e1d.png)
+
 บ้านแฝด กรุงเทพมาอันดับที่ 1 ตามสมมติฐาน<br />
+![image](https://user-images.githubusercontent.com/61573397/195838859-786c6627-875b-4272-94d7-d1612ff8466a.png)
+
 ทาว์โฮม อันดับ 1เป็นร้อยเอ็ด อันดับ2 คือพะเยา อันดับ 3 คือกรุงเทพ<br />
+![image](https://user-images.githubusercontent.com/61573397/195838880-239bf9b0-b8b1-461e-8a66-0993d648d0d7.png)
+
 5.ราคาที่ดินสูง น่าจะทำให้โครงการมูลค่าสูง<br />
 คำตอบหากพิจาณาโครงการบ้านเดี่ยว 8คลองเตยเหนือ  คลองตันเหนือ คลองตันซึ่งไม่ใช่เขตที่มีที่ดินแพงที่สุด<br />
+https://miro.medium.com/max/750/1*SvtrzARVNDBGaUVXBxLEVw.png
+
 หากพิจารณาคอนโด 1.จักรวรรดิ์อยู่ในเขตสัมพันธ์วงศ์ 2.เขตดุสิต3.ลุมพินีในเขตปทุมวันซึ่งอยู่ในกลุ่มที่มีราคาประเมิณที่ดินสูงที่สุด<br />
+![image](https://user-images.githubusercontent.com/61573397/195838981-3eb254de-94f8-4aa8-99aa-9eef7572c179.png)
+![image](https://user-images.githubusercontent.com/61573397/195839029-36767f61-3a52-4677-9de3-6cb593d6ca90.png)
 6.หากเราสร้าง Map Data Visualization ขึ้นมาน่าจะช่วยไขคำตอบที่เราสงสัยได้มากขึ้น
 คำตอบ โดยสรุปการนำBig data มาสร้างเป็น Map Data Visualization ช่วยให้เราเข้าใจภาพรวมมากขึ้น และให้ขอมูลหลายๆอย่างที่กราฟให้ไม่ได้<br />
+
 # Challenge: 
  ปัญหาและอุปสรรค์ในการทำงาน<br />
 1.ความยากในการหา dataset และ จะเลือก dataset ไหนมาทำเลือกยากเพราะเวลามีจำกัด และเราไม่รู้ว่าจะวิเคราะห์แล้วเจออะไรบ้าง<br />
@@ -122,6 +141,14 @@ https://pandastutor.com/
 # 3. Visualization
 - 3.1 MatPlotLib https://matplotlib.org/stable/tutorials/index.html
 - 3.2 GeoPandas Mapping and Plotting Tools https://geopandas.org/en/stable/docs/user_guide/mapping.html
+https://miro.medium.com/max/1100/1*wkFt03GrqlMHOc1ZiI12jw.png
+![image](https://user-images.githubusercontent.com/61573397/195839227-c3659f37-b9cc-41a6-81c9-8fe5c77661a9.png)
+
+![image](https://user-images.githubusercontent.com/61573397/195839107-295085b1-bc12-4eea-9400-a79504916e56.png)
+![image](https://user-images.githubusercontent.com/61573397/195839145-74350628-ebd6-484b-8891-0f7d1a28cf25.png)
+
+![image](https://user-images.githubusercontent.com/61573397/195839269-217bddcd-6a24-4b62-ab0d-1d0218c52c89.png)
+
 
 # 4.Dataset
 ![alt text](https://scontent.fbkk3-6.fna.fbcdn.net/v/t39.30808-6/295833511_145014654868736_3529467263153893155_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFk0ek4UyFEBk8VS5qlm-jnUFU3aE1H2qNQVTdoTUfao53JWzG3k46jpYlBG68mqKk&_nc_ohc=Lfl-OYKRLFoAX9PacXd&_nc_zt=23&_nc_ht=scontent.fbkk3-6.fna&oh=00_AT-PYdQe3R8H-V6XUwWcURbYwhqhzT23dWpx6tbOJWK8Fw&oe=634DFF3A)
