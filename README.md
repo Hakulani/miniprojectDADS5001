@@ -132,6 +132,9 @@ https://miro.medium.com/max/750/1*SvtrzARVNDBGaUVXBxLEVw.png
 คำตอบ โดยสรุปการนำBig data มาสร้างเป็น Map Data Visualization ช่วยให้เราเข้าใจภาพรวมมากขึ้น และให้ขอมูลหลายๆอย่างที่กราฟให้ไม่ได้<br />
 ![image](https://user-images.githubusercontent.com/61573397/195839227-c3659f37-b9cc-41a6-81c9-8fe5c77661a9.png)
 
+![image](https://user-images.githubusercontent.com/61573397/195840744-9cf118de-2ee3-4a6f-a2e6-f591e95e9936.png)
+
+
 ![image](https://user-images.githubusercontent.com/61573397/195839107-295085b1-bc12-4eea-9400-a79504916e56.png)
 ![image](https://user-images.githubusercontent.com/61573397/195839145-74350628-ebd6-484b-8891-0f7d1a28cf25.png)
 
