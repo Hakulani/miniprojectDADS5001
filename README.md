@@ -108,6 +108,7 @@ dtypes: float64(16), object(29)
 ![image](https://user-images.githubusercontent.com/61573397/195838685-57c8bf1b-0c13-45dd-9754-ffe39eb8a32f.png)
 median และ mean descending นครราชสีมาอันดับ 7 อันดับ 8 ชลบุรี สำหรับอันดับ 1 กาญจนบุรี มีเพียง 1 โครงการ ราคา 9.9 ล้าน ซึ่งเมื่อทำการหาข้อมูลเพิ่มเติม ก็เจอว่าราคาจริงคือ 9.9แสน<br />
 ![image](https://user-images.githubusercontent.com/61573397/195840323-5fb1d399-53e2-4b16-84fd-4c26177c87e8.png)
+![image](https://user-images.githubusercontent.com/61573397/195840618-84d804cf-1072-4494-87a6-b0f85dc1d7b6.png)
 
 4.ราคาบ้านเดี่ยว บ้านแฝดและทาวโฮม เรียงตาม median กรุงเทพน่าจะสูงที่สุด<br />
 บ้านเดี่ยว อันดับ 1   คือพังงา med 49.5 MB โครงการมูลค่าสูง อันดับ 2 กระบี่ ส่วนกรุงเทพมาในอันดับ 3<br />
