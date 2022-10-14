@@ -96,9 +96,13 @@ dtypes: float64(16), object(29)
 คำตอบคือ ในกรุงเทพ บ้านเดียว>บ้านแฝด> ทาวโฮม>คอนโด
 ![image](https://user-images.githubusercontent.com/61573397/195838527-d64780ee-90fa-4a39-8b63-cb8c297c62dc.png)
 แต่ในจังหวัดระยองพบว่าราคาแต่ละประเภทไม่ได้แตกต่างกันมากเมื่อเทียบกับกรุงเทพ<br />
-https://miro.medium.com/max/1100/1*rQT9mlnK_VfskqsE1oTvTQ.png
+
+![image](https://user-images.githubusercontent.com/61573397/195840161-f65062ac-cffc-45a4-8d7a-eb1e68e27e49.png)
+
 และจังหวัดนครราชสีมา และชลบุรี ราคาคอนโดค่อนข้างสูงเมื่อเทียบกับอสังหาประเภทอื่น  <br />
-https://miro.medium.com/max/1100/1*RPhPagdxfZqgfEs_C6eEVA.jpeg
+![image](https://user-images.githubusercontent.com/61573397/195840210-005b5aca-5b43-4534-8f05-b2db483f0234.png)
+
+
 3.ราคาคอนโดชลบุรีและนครราชสีมาหากเรียงตาม mean และ median น่าจะติด TO10 แพงที่สุดในประเทศ<br />
 คำตอบคือใช่แต่อันดับ 1 กาญจนบุรี ไม่น่าจะถูกต้อง<br />
 ![image](https://user-images.githubusercontent.com/61573397/195838685-57c8bf1b-0c13-45dd-9754-ffe39eb8a32f.png)
