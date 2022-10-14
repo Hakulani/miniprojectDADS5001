@@ -143,6 +143,8 @@ https://miro.medium.com/max/750/1*SvtrzARVNDBGaUVXBxLEVw.png
 ![image](https://user-images.githubusercontent.com/61573397/195839145-74350628-ebd6-484b-8891-0f7d1a28cf25.png)
 
 สามารถ download HTML ใน githubนี้ได้
+https://github.com/Hakulani/miniprojectDADS5001/blob/main/file.html
+
 ![image](https://miro.medium.com/max/828/1*QPq6lqtMz11GGpSYHXwj0A.gif)
  
 
