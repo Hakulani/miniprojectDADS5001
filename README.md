@@ -121,9 +121,14 @@ https://miro.medium.com/max/750/1*SvtrzARVNDBGaUVXBxLEVw.png
 หากพิจารณาคอนโด 1.จักรวรรดิ์อยู่ในเขตสัมพันธ์วงศ์ 2.เขตดุสิต3.ลุมพินีในเขตปทุมวันซึ่งอยู่ในกลุ่มที่มีราคาประเมิณที่ดินสูงที่สุด<br />
 ![image](https://user-images.githubusercontent.com/61573397/195838981-3eb254de-94f8-4aa8-99aa-9eef7572c179.png)
 ![image](https://user-images.githubusercontent.com/61573397/195839029-36767f61-3a52-4677-9de3-6cb593d6ca90.png)
-6.หากเราสร้าง Map Data Visualization ขึ้นมาน่าจะช่วยไขคำตอบที่เราสงสัยได้มากขึ้น
+6.หากเราสร้าง Map Data Visualization ขึ้นมาน่าจะช่วยไขคำตอบที่เราสงสัยได้มากขึ้น<br />
 คำตอบ โดยสรุปการนำBig data มาสร้างเป็น Map Data Visualization ช่วยให้เราเข้าใจภาพรวมมากขึ้น และให้ขอมูลหลายๆอย่างที่กราฟให้ไม่ได้<br />
+![image](https://user-images.githubusercontent.com/61573397/195839227-c3659f37-b9cc-41a6-81c9-8fe5c77661a9.png)
 
+![image](https://user-images.githubusercontent.com/61573397/195839107-295085b1-bc12-4eea-9400-a79504916e56.png)
+![image](https://user-images.githubusercontent.com/61573397/195839145-74350628-ebd6-484b-8891-0f7d1a28cf25.png)
+
+![image](https://user-images.githubusercontent.com/61573397/195839269-217bddcd-6a24-4b62-ab0d-1d0218c52c89.png)
 # Challenge: 
  ปัญหาและอุปสรรค์ในการทำงาน<br />
 1.ความยากในการหา dataset และ จะเลือก dataset ไหนมาทำเลือกยากเพราะเวลามีจำกัด และเราไม่รู้ว่าจะวิเคราะห์แล้วเจออะไรบ้าง<br />
@@ -142,12 +147,7 @@ https://pandastutor.com/
 - 3.1 MatPlotLib https://matplotlib.org/stable/tutorials/index.html
 - 3.2 GeoPandas Mapping and Plotting Tools https://geopandas.org/en/stable/docs/user_guide/mapping.html
 https://miro.medium.com/max/1100/1*wkFt03GrqlMHOc1ZiI12jw.png
-![image](https://user-images.githubusercontent.com/61573397/195839227-c3659f37-b9cc-41a6-81c9-8fe5c77661a9.png)
 
-![image](https://user-images.githubusercontent.com/61573397/195839107-295085b1-bc12-4eea-9400-a79504916e56.png)
-![image](https://user-images.githubusercontent.com/61573397/195839145-74350628-ebd6-484b-8891-0f7d1a28cf25.png)
-
-![image](https://user-images.githubusercontent.com/61573397/195839269-217bddcd-6a24-4b62-ab0d-1d0218c52c89.png)
 
 
 # 4.Dataset
