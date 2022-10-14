@@ -129,7 +129,7 @@ https://miro.medium.com/max/750/1*SvtrzARVNDBGaUVXBxLEVw.png
 ![image](https://user-images.githubusercontent.com/61573397/195839107-295085b1-bc12-4eea-9400-a79504916e56.png)
 ![image](https://user-images.githubusercontent.com/61573397/195839145-74350628-ebd6-484b-8891-0f7d1a28cf25.png)
 
-![image](https://user-images.githubusercontent.com/61573397/195839269-217bddcd-6a24-4b62-ab0d-1d0218c52c89.gif)
+![image]([https://user-images.githubusercontent.com/61573397/195839269-217bddcd-6a24-4b62-ab0d-1d0218c52c89.gif](https://miro.medium.com/max/828/1*QPq6lqtMz11GGpSYHXwj0A.gif)
 # Challenge: 
  ปัญหาและอุปสรรค์ในการทำงาน<br />
 1.ความยากในการหา dataset และ จะเลือก dataset ไหนมาทำเลือกยากเพราะเวลามีจำกัด และเราไม่รู้ว่าจะวิเคราะห์แล้วเจออะไรบ้าง<br />
