@@ -83,6 +83,8 @@ Data columns (total 45 columns):
  44  url_project             23594 non-null  object 
 dtypes: float64(16), object(29)
 ```
+# Q&A
+# Challenge: 
 
 # References
 # 1. Numpy
