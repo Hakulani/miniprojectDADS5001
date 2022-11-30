@@ -2,6 +2,17 @@
 Mini-Project  DADS5001  Data Analytics and Data Science Tools and Programming.
 Project  by Witsarut Wongsim DADS2  6420422017
 # Topic Big Data กับโลกอสังหาริมทรัพย์เข้าใจง่ายด้วย Data Visualization
+
+
+#Update Nov2022  ไฟล์ app.py  เพิ่มพื้นหลังแผนที่ประเทศไทย
+วิธีใช้งาน download csv file วางไว้ใน Folder เดียวกับ app.py
+
+```
+คำสั่ง
+python
+>>python app.py
+```
+
 # Library and Install
 
 ```python
