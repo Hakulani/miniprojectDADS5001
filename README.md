@@ -1,12 +1,12 @@
 # miniprojectDADS5001
 Mini-Project  DADS5001  Data Analytics and Data Science Tools and Programming.
 Project  by Witsarut Wongsim DADS2  6420422017
-# Big Data with Real Estate in Thailand
-Abstract
+Big Data with Real Estate in Thailand
+# Abstract
 This mini-project utilizes data visualization tools to uncover insights from a real estate dataset in Thailand. The project explores price distributions, property type variations across regions, and the potential influence of land prices on project value.
 
+#Note:Update Nov2022  ไฟล์ app.py  เพิ่มพื้นหลังแผนที่ประเทศไทย
 
-#Update Nov2022  ไฟล์ app.py  เพิ่มพื้นหลังแผนที่ประเทศไทย
 วิธีใช้งาน download csv file วางไว้ใน Folder เดียวกับ app.py
 ```
 คำสั่ง
