@@ -146,12 +146,13 @@ median และ mean descending นครราชสีมาอันดั�
 
 6.หากเราสร้าง Map Data Visualization ขึ้นมาน่าจะช่วยไขคำตอบที่เราสงสัยได้มากขึ้น<br />
 คำตอบ โดยสรุปการนำBig data มาสร้างเป็น Map Data Visualization ช่วยให้เราเข้าใจภาพรวมมากขึ้น และให้ขอมูลหลายๆอย่างที่กราฟให้ไม่ได้
+
 Map Data Visualization is a powerful tool that can help you see patterns and trends in your data that would be difficult to identify in a table or spreadsheet. By using different visual elements, such as color, size, and position, you can create a map that is both informative and easy to understand.
 
 Components of the Map Data Visualization
 
 Base Map: The base map provides the geographical context for your data. In the example you provided, the base map appears to be a simple world map. However, you can use more detailed base maps, such as street maps or political maps, depending on your data.
-Data points: The data points represent the specific pieces of data you are trying to visualize. In the example you provided, the data points are circles (bubbles) in various colors and sizes. The color likely represents different property types (e.g., condo, apartment, house) and the size of the bubble might represent the price.
+Data points: The data points represent the specific pieces of data you are trying to visualize. In the example you provided, the data points are circles (bubbles) in various colors and sizes. The color likely represents different property types (e.g., condo, house) and the size of the bubble might represent the price.
 Color: Color can be used to represent different categories of data. For example, in the example you provided, the color of the bubble likely represents the property type.
 Size: Size can be used to represent the magnitude of a data point. In the example you provided, the size of the bubble likely represents the property price (larger bubble indicates a higher price).
 Benefits of Map Data Visualization
