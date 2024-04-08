@@ -150,14 +150,21 @@ In reality, Nakhon Ratchasima and Chonburi emerged as the provinces with the hig
 ![image](https://user-images.githubusercontent.com/61573397/195840323-5fb1d399-53e2-4b16-84fd-4c26177c87e8.png)
 ![image](https://user-images.githubusercontent.com/61573397/195840618-84d804cf-1072-4494-87a6-b0f85dc1d7b6.png)
 
-4.ราคาบ้านเดี่ยว บ้านแฝดและทาวโฮม เรียงตาม median กรุงเทพน่าจะสูงที่สุด<br />
-บ้านเดี่ยว อันดับ 1   คือพังงา med 49.5 MB โครงการมูลค่าสูง อันดับ 2 กระบี่ ส่วนกรุงเทพมาในอันดับ 3<br />
+4.Prices of detached houses, twin houses, and townhomes: Bangkok is likely to be the highest?<br />
+Detached houses:
+Phang Nga is the first place with a median of 49.5 MB.
+Krabi is the second place.
+Bangkok is the third place<br />
 ![image](https://user-images.githubusercontent.com/61573397/195838826-f242efcc-3545-4814-b6bc-b88a63c57e1d.png)
 
-บ้านแฝด กรุงเทพมาอันดับที่ 1 ตามสมมติฐาน<br />
+Twin houses:
+Bangkok is the first place, as hypothesized.<br />
 ![image](https://user-images.githubusercontent.com/61573397/195838859-786c6627-875b-4272-94d7-d1612ff8466a.png)
 
-ทาว์โฮม อันดับ 1เป็นร้อยเอ็ด อันดับ2 คือพะเยา อันดับ 3 คือกรุงเทพ<br />
+Townhomes:
+Roi Et is the first place.
+Phayao is the second place.
+Bangkok is the third place.<br />
 ![image](https://user-images.githubusercontent.com/61573397/195838880-239bf9b0-b8b1-461e-8a66-0993d648d0d7.png)
 
 5.ราคาที่ดินสูง น่าจะทำให้โครงการมูลค่าสูง<br />
