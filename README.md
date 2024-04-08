@@ -144,16 +144,14 @@ Nakhon Ratchasima and Chonburi provinces, condo prices are quite high compared t
 While the initial analysis suggested Kanchanaburi might have the highest median price, further investigation revealed a data error. <br />
 ![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/d7556c02-3944-4d27-a7a6-f848ff9e697d)
 
-![image](https://user-images.githubusercontent.com/61573397/195843879-85fdc7b7-f000-4e9b-ae79-a999c2b9071c.png)
 
 In reality, #7Nakhon Ratchasima and #8Chonburi emerged as the provinces with the highest median and mean condo prices. 
 ![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/3928b0fe-9287-40d0-aa6b-8996fd91b70b)
 
 สำหรับอันดับ 1 กาญจนบุรี มีเพียง 1 โครงการ ราคา 9.9 ล้าน ซึ่งเมื่อทำการหาข้อมูลเพิ่มเติม ก็เจอว่าราคาจริงคือ 9.9แสน<br />
 ![image](https://user-images.githubusercontent.com/61573397/195841753-e58f236d-d740-4deb-885c-9d8974c22144.png)
-
-![image](https://user-images.githubusercontent.com/61573397/195840323-5fb1d399-53e2-4b16-84fd-4c26177c87e8.png)
-![image](https://user-images.githubusercontent.com/61573397/195840618-84d804cf-1072-4494-87a6-b0f85dc1d7b6.png)
+ทำการ Update ข้อมูลที่ถูกต้องไป ทำให้อันดับผู้นำเปลี่ยนแปลงกาญจนบุรีไปอยู่อันดับท้ายๆ ประจวบฯขึ้นมาอันดับ 1
+![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/e787af64-1d1b-4526-9d15-a177c1cdeb6a)
 
 4.Prices of detached houses, twin houses, and townhomes: Bangkok is likely to be the highest?<br />
 Detached houses:
