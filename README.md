@@ -145,7 +145,22 @@ median และ mean descending นครราชสีมาอันดั�
 ![image](https://user-images.githubusercontent.com/61573397/195839029-36767f61-3a52-4677-9de3-6cb593d6ca90.png)
 
 6.หากเราสร้าง Map Data Visualization ขึ้นมาน่าจะช่วยไขคำตอบที่เราสงสัยได้มากขึ้น<br />
-คำตอบ โดยสรุปการนำBig data มาสร้างเป็น Map Data Visualization ช่วยให้เราเข้าใจภาพรวมมากขึ้น และให้ขอมูลหลายๆอย่างที่กราฟให้ไม่ได้<br />
+คำตอบ โดยสรุปการนำBig data มาสร้างเป็น Map Data Visualization ช่วยให้เราเข้าใจภาพรวมมากขึ้น และให้ขอมูลหลายๆอย่างที่กราฟให้ไม่ได้
+Map Data Visualization is a powerful tool that can help you see patterns and trends in your data that would be difficult to identify in a table or spreadsheet. By using different visual elements, such as color, size, and position, you can create a map that is both informative and easy to understand.
+
+Components of the Map Data Visualization
+
+Base Map: The base map provides the geographical context for your data. In the example you provided, the base map appears to be a simple world map. However, you can use more detailed base maps, such as street maps or political maps, depending on your data.
+Data points: The data points represent the specific pieces of data you are trying to visualize. In the example you provided, the data points are circles (bubbles) in various colors and sizes. The color likely represents different property types (e.g., condo, apartment, house) and the size of the bubble might represent the price.
+Color: Color can be used to represent different categories of data. For example, in the example you provided, the color of the bubble likely represents the property type.
+Size: Size can be used to represent the magnitude of a data point. In the example you provided, the size of the bubble likely represents the property price (larger bubble indicates a higher price).
+Benefits of Map Data Visualization
+
+Identify patterns and trends: Map Data Visualization can help you see patterns and trends in your data that would be difficult to identify in a table or spreadsheet. For example, you might be able to see that there are more expensive properties located in certain areas of the city.
+Communicate insights: Map Data Visualization can be a very effective way to communicate insights to others. Because maps are visual, they are easy to understand for people with and without a data analysis background.
+Make data more engaging: Map Data Visualization can make data more engaging and interesting to look at. This can be especially helpful when you are trying to communicate complex data to a non-technical audience.
+
+<br />
 ![image](https://user-images.githubusercontent.com/61573397/195839227-c3659f37-b9cc-41a6-81c9-8fe5c77661a9.png)
 
 ![image](https://user-images.githubusercontent.com/61573397/195840744-9cf118de-2ee3-4a6f-a2e6-f591e95e9936.png)
