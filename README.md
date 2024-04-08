@@ -167,12 +167,18 @@ Phayao is the second place.
 Bangkok is the third place.<br />
 ![image](https://user-images.githubusercontent.com/61573397/195838880-239bf9b0-b8b1-461e-8a66-0993d648d0d7.png)
 
-5.ราคาที่ดินสูง น่าจะทำให้โครงการมูลค่าสูง<br />
-คำตอบหากพิจาณาโครงการบ้านเดี่ยว 8คลองเตยเหนือ  คลองตันเหนือ คลองตันซึ่งไม่ใช่เขตที่มีที่ดินแพงที่สุด<br />
-
+5.High land prices should lead to high-value projects?.
+Answer: When considering detached house projects in Khlong Toei Nuea, Khlong Tan Nuea, and Khlong Tan, which are not areas with the most expensive land, this may not always be the case.<br />
+Analysis:
+There are a few possible explanations for this finding. One possibility is that the cost of land is not the only factor that determines the value of a project. Other factors, such as the location of the project, the amenities offered, and the quality of the construction, may also play a role.
+Another possibility,This could be due to a number of factors, such as the zoning restrictions in the area, the availability of land.
 ![image](https://user-images.githubusercontent.com/61573397/195964220-70d4d361-990a-4753-94dc-3254ead966b8.png)
 
-หากพิจารณาคอนโด 1.จักรวรรดิ์อยู่ในเขตสัมพันธ์วงศ์ 2.เขตดุสิต3.ลุมพินีในเขตปทุมวันซึ่งอยู่ในกลุ่มที่มีราคาประเมิณที่ดินสูงที่สุด<br />
+However, when considering condominiums:
+Chakkraphet is located in the Samphanthawong district.
+Dusit district.
+Lumpini in the Pathumwan district, which are all in the group with the highest land valuation.
+This suggests that land prices may play a more significant role in determining the value of condominium projects than detached house projects. This could be due to the fact that condominiums are typically located in more central areas, where land prices are higher. Additionally, condominiums are often built on smaller parcels of land, which makes the cost of land a more significant factor in the overall cost of the project.<br />
 ![image](https://user-images.githubusercontent.com/61573397/195838981-3eb254de-94f8-4aa8-99aa-9eef7572c179.png)
 ![image](https://user-images.githubusercontent.com/61573397/195839029-36767f61-3a52-4677-9de3-6cb593d6ca90.png)
 
