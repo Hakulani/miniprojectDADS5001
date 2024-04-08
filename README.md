@@ -226,13 +226,44 @@ https://github.com/Hakulani/miniprojectDADS5001/blob/main/file.html
 ![image](https://miro.medium.com/max/828/1*QPq6lqtMz11GGpSYHXwj0A.gif)
  
 
-# Challenge: 
- ปัญหาและอุปสรรค์ในการทำงาน<br />
-1.ความยากในการหา dataset และ จะเลือก dataset ไหนมาทำเลือกยากเพราะเวลามีจำกัด และเราไม่รู้ว่าจะวิเคราะห์แล้วเจออะไรบ้าง<br />
-2.ปัญหาสุขภาพ เนื่องจากเป็นช่วงสอบที่พักผ่อนนอก และได้เป็นโควิด-19 ทำให้ ค่อนข้างเหนื่อยล้าในการคิดและต้องพักผ่อนทำให้เวลาเหลือน้อยลง<br />
-3.ไม่เคยสร้าง Map  ทำให้ต้องใช้เวลาศึกษานานเป็นพิเศษ ทั้งทำความเข้าใจ lib การหา data vector จาก กทม. แต่ก็คุ้มที่จะทำยกอย่างเช่น ข้อมูลราคาที่ดินเป็นแค่ตาราง ถ้าไม่นำ plot เป็นแผนที่ก็คงไม่เข้าใจภาพรวม<br />
-4.ข้อมูลหาย ในช่วงแรกที่สร้าง Map ข้อมูลหายไปเกินครึ่ง เนื่องจากข้อมูลบางส่วนถูก drop ไป วิธีแก้ไขคือใช้ Left join เพื่อเก็บข้อมูลสำคัญๆให้อยู่ครบ<br />
-5.ขนาดของ Bubble ใน Map แตกต่างกันมากเกินไป ใช้ Min Max scaling ในการช่วย 
+# Challenges Faced:<br />
+1. Data Acquisition and Selection<br />
+-Difficulty in finding suitable datasets within a limited timeframe.<br />
+-Uncertainty regarding potential discoveries within the chosen dataset.<br />
+2. Health Issues<br />
+-Exhaustion due to overlapping commitments during the exam period and contracting COVID-19.<br />
+-Reduced cognitive function and limited time for analysis due to illness.<br />
+3. Map Vector Creation<br />
+-Steep learning curve for map creation, including understanding libraries and sourcing vector data for Bangkok.<br />
+-Time-consuming process, but ultimately rewarding as it provides a holistic view of the data (e.g., land price data is incomprehensible without mapping).<br />
+4.Missing value
+-Over 50% of data was lost during initial map creation due to data droppage.<br />
+-Implemented left join to preserve critical data.<br />
+5.Disparate Bubble Sizes on Map
+-Employed Min Max scaling to address the issue of vastly different bubble sizes.<br />
+
+Lessons Learned
+1. Data Exploration and Preparation
+
+Importance of exploring and understanding the data before analysis.
+Careful data preparation to ensure accuracy and reliability of results.
+2. Time Management and Prioritization
+
+Effective time management and prioritization of tasks to mitigate the impact of unexpected challenges.
+Balancing academic commitments with personal health and well-being.
+3. Learning New Skills
+
+Willingness to learn new skills and technologies to address project requirements.
+Continuous learning and adaptation to improve analytical capabilities.
+4. Data Visualization
+
+Importance of data visualization in enhancing data comprehension and communicating insights effectively.
+Exploration of different visualization techniques to suit the specific data and audience.
+5. Problem Solving and Troubleshooting
+
+Ability to identify and address data-related issues and challenges.
+Adoption of a proactive approach to problem-solving and troubleshooting.
+
 # References
 # 1. Numpy
 https://numpy.org/doc/stable/user/quickstart.html
