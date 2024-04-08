@@ -158,7 +158,8 @@ Detached houses:
 Phang Nga is the first place with a median of 49.5 MB.
 Krabi is the second place.
 Bangkok is the third place<br />
-![image](https://user-images.githubusercontent.com/61573397/195838826-f242efcc-3545-4814-b6bc-b88a63c57e1d.png)
+![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/d9ef7c71-9a23-4473-a2dd-2a20c7334430)
+
 
 Twin houses:
 Bangkok is the first place, as hypothesized.<br />
@@ -170,19 +171,21 @@ Phayao is the second place.
 Bangkok is the third place.<br />
 ![image](https://user-images.githubusercontent.com/61573397/195838880-239bf9b0-b8b1-461e-8a66-0993d648d0d7.png)
 
-5.High land prices should lead to high-value projects?.
-Answer: When considering detached house projects in Khlong Toei Nuea, Khlong Tan Nuea, and Khlong Tan, which are not areas with the most expensive land, this may not always be the case.<br />
-Analysis:
-There are a few possible explanations for this finding. One possibility is that the cost of land is not the only factor that determines the value of a project. Other factors, such as the location of the project, the amenities offered, and the quality of the construction, may also play a role.
-Another possibility,This could be due to a number of factors, such as the zoning restrictions in the area, the availability of land.
-![image](https://user-images.githubusercontent.com/61573397/195964220-70d4d361-990a-4753-94dc-3254ead966b8.png)
+5.High land prices should lead to high-value projects?<br />
+
+Answer: When considering detached house projects in Khlong Toei Nuea, Khlong Tan Nuea, and Khlong Tan , which are not areas with the most expensive land, this may not always be the case.<br />
+Analysis:High land prices may not make it worthwhile to build detached houses that require a large area. Compared to condo project units, you may be able to make more profit.
+This is because the cost of land is a significant factor in the overall cost of building a detached house. When land prices are high, it may be more difficult to make a profit on detached house projects.
+On the other hand, condo project units typically have a smaller footprint, which means that the cost of land is a less significant factor in the overall cost of the project. Additionally, condo units are often in high demand, which can lead to higher profits.
+
+![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/c5006fac-7429-4375-b736-60fe12d3fe66)
 
 However, when considering condominiums:
 Chakkraphet is located in the Samphanthawong district.
 Dusit district.
 Lumpini in the Pathumwan district, which are all in the group with the highest land valuation.
 This suggests that land prices may play a more significant role in determining the value of condominium projects than detached house projects. This could be due to the fact that condominiums are typically located in more central areas, where land prices are higher. Additionally, condominiums are often built on smaller parcels of land, which makes the cost of land a more significant factor in the overall cost of the project.<br />
-![image](https://user-images.githubusercontent.com/61573397/195838981-3eb254de-94f8-4aa8-99aa-9eef7572c179.png)
+ 
 ![image](https://user-images.githubusercontent.com/61573397/195839029-36767f61-3a52-4677-9de3-6cb593d6ca90.png)
 
 6.หากเราสร้าง Map Data Visualization ขึ้นมาน่าจะช่วยไขคำตอบที่เราสงสัยได้มากขึ้น<br />
