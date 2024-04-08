@@ -237,33 +237,33 @@ https://github.com/Hakulani/miniprojectDADS5001/blob/main/file.html
 3. Map Vector Creation<br />
 -Steep learning curve for map creation, including understanding libraries and sourcing vector data for Bangkok.<br />
 -Time-consuming process, but ultimately rewarding as it provides a holistic view of the data (e.g., land price data is incomprehensible without mapping).<br />
-4.Missing value
+4. Missing value<br />
 -Over 50% of data was lost during initial map creation due to data droppage.<br />
 -Implemented left join to preserve critical data.<br />
-5.Disparate Bubble Sizes on Map
+5. Disparate Bubble Sizes on Map<br />
 -Employed Min Max scaling to address the issue of vastly different bubble sizes.<br />
 
-Lessons Learned
-1. Data Exploration and Preparation
+Lessons Learned<br />
+1. Data Exploration and Preparation<br />
 
-Importance of exploring and understanding the data before analysis.
-Careful data preparation to ensure accuracy and reliability of results.
-2. Time Management and Prioritization
+Importance of exploring and understanding the data before analysis.<br />
+Careful data preparation to ensure accuracy and reliability of results.<br />
+2. Time Management and Prioritization<br />
 
-Effective time management and prioritization of tasks to mitigate the impact of unexpected challenges.
-Balancing academic commitments with personal health and well-being.
-3. Learning New Skills
+Effective time management and prioritization of tasks to mitigate the impact of unexpected challenges.<br />
+Balancing academic commitments with personal health and well-being.<br />
+3. Learning New Skills<br />
 
-Willingness to learn new skills and technologies to address project requirements.
-Continuous learning and adaptation to improve analytical capabilities.
-4. Data Visualization
+Willingness to learn new skills and technologies to address project requirements.<br />
+Continuous learning and adaptation to improve analytical capabilities.<br />
+4. Data Visualization<br />
 
-Importance of data visualization in enhancing data comprehension and communicating insights effectively.
-Exploration of different visualization techniques to suit the specific data and audience.
-5. Problem Solving and Troubleshooting
+Importance of data visualization in enhancing data comprehension and communicating insights effectively.<br />
+Exploration of different visualization techniques to suit the specific data and audience.<br />
+5. Problem Solving and Troubleshooting<br />
 
-Ability to identify and address data-related issues and challenges.
-Adoption of a proactive approach to problem-solving and troubleshooting.
+Ability to identify and address data-related issues and challenges.<br />
+Adoption of a proactive approach to problem-solving and troubleshooting.<br />
 
 # References
 # 1. Numpy
