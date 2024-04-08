@@ -126,9 +126,7 @@ This section explores interesting questions and insights derived from the data a
 1.Price Distribution: Does the real estate price follow a normal distribution?<br />
 Ans.The analysis revealed a right-skewed distribution for property prices, with a longer tail towards higher values. Outliers were also identified on the higher end of the price range.<br />
 
-![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/2842768b-b9ed-4efc-87f5-eb1bc1ffd5eb)
-
-![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/dab7bb4f-0a88-46e3-9a15-fccab89d3d1d)
+![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/b46671c2-3193-4344-9448-5e871bc67450)
 
 
 ![image](https://user-images.githubusercontent.com/61573397/195838421-9472cdfb-2c26-4674-a4e3-f7a36350837c.png)
