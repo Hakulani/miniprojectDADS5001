@@ -146,6 +146,7 @@ median และ mean descending นครราชสีมาอันดั�
 
 6.หากเราสร้าง Map Data Visualization ขึ้นมาน่าจะช่วยไขคำตอบที่เราสงสัยได้มากขึ้น<br />
 คำตอบ โดยสรุปการนำBig data มาสร้างเป็น Map Data Visualization ช่วยให้เราเข้าใจภาพรวมมากขึ้น และให้ขอมูลหลายๆอย่างที่กราฟให้ไม่ได้
+![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/55d82019-e647-452a-b42c-189587538e19)
 
 Map Data Visualization is a powerful tool that can help you see patterns and trends in your data that would be difficult to identify in a table or spreadsheet. By using different visual elements, such as color, size, and position, you can create a map that is both informative and easy to understand.
 
