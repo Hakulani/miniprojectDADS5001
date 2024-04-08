@@ -162,7 +162,8 @@ Identify patterns and trends: Map Data Visualization can help you see patterns a
 Communicate insights: Map Data Visualization can be a very effective way to communicate insights to others. Because maps are visual, they are easy to understand for people with and without a data analysis background.
 Make data more engaging: Map Data Visualization can make data more engaging and interesting to look at. This can be especially helpful when you are trying to communicate complex data to a non-technical audience.
 
-<br />
+<br/>
+
 ![image](https://user-images.githubusercontent.com/61573397/195839227-c3659f37-b9cc-41a6-81c9-8fe5c77661a9.png)
 
 ![image](https://user-images.githubusercontent.com/61573397/195840744-9cf118de-2ee3-4a6f-a2e6-f591e95e9936.png)
