@@ -142,9 +142,13 @@ Nakhon Ratchasima and Chonburi provinces, condo prices are quite high compared t
 
 3.Top Ranked Provinces by Median and Mean Price: Are expensive properties concentrated in specific areas?<br />
 While the initial analysis suggested Kanchanaburi might have the highest median price, further investigation revealed a data error. <br />
+![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/d7556c02-3944-4d27-a7a6-f848ff9e697d)
+
 ![image](https://user-images.githubusercontent.com/61573397/195843879-85fdc7b7-f000-4e9b-ae79-a999c2b9071c.png)
 
-In reality, Nakhon Ratchasima and Chonburi emerged as the provinces with the highest median and mean condo prices. 
+In reality, #7Nakhon Ratchasima and #8Chonburi emerged as the provinces with the highest median and mean condo prices. 
+![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/3928b0fe-9287-40d0-aa6b-8996fd91b70b)
+
 สำหรับอันดับ 1 กาญจนบุรี มีเพียง 1 โครงการ ราคา 9.9 ล้าน ซึ่งเมื่อทำการหาข้อมูลเพิ่มเติม ก็เจอว่าราคาจริงคือ 9.9แสน<br />
 ![image](https://user-images.githubusercontent.com/61573397/195841753-e58f236d-d740-4deb-885c-9d8974c22144.png)
 
