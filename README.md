@@ -1,48 +1,40 @@
 # miniprojectDADS5001
 Mini-Project  DADS5001  Data Analytics and Data Science Tools and Programming.
 Project  by Witsarut Wongsim DADS2  6420422017
-# Topic Big Data กับโลกอสังหาริมทรัพย์เข้าใจง่ายด้วย Data Visualization
+# Big Data with Real Estate in Thailand
+Abstract
+This mini-project utilizes data visualization tools to uncover insights from a real estate dataset in Thailand. The project explores price distributions, property type variations across regions, and the potential influence of land prices on project value.
 
 
 #Update Nov2022  ไฟล์ app.py  เพิ่มพื้นหลังแผนที่ประเทศไทย
 วิธีใช้งาน download csv file วางไว้ใน Folder เดียวกับ app.py
-
 ```
 คำสั่ง
 python
 >>python app.py
 ```
 
-# Library and Install
 
-```python
-pip install Shapely
-pip install geopandas
-pip install joypy
+# Data Acquisition
 
-!wget -q http://www.arts.chula.ac.th/ling/wp-content/uploads/TH-Sarabun_Chula1.1.zip -O font.zip
-!unzip -qj font.zip TH-Sarabun_Chula1.1/THSarabunChula-Regular.ttf
-# !pip install -U --pre matplotlib  
-import matplotlib as mpl
-mpl.font_manager.fontManager.addfont('THSarabunChula-Regular.ttf')
-mpl.rc('font', family='TH Sarabun Chula')
+The dataset used in this project was retrieved from 
+![alt text](https://scontent.fbkk3-6.fna.fbcdn.net/v/t39.30808-6/295833511_145014654868736_3529467263153893155_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFk0ek4UyFEBk8VS5qlm-jnUFU3aE1H2qNQVTdoTUfao53JWzG3k46jpYlBG68mqKk&_nc_ohc=Lfl-OYKRLFoAX9PacXd&_nc_zt=23&_nc_ht=scontent.fbkk3-6.fna&oh=00_AT-PYdQe3R8H-V6XUwWcURbYwhqhzT23dWpx6tbOJWK8Fw&oe=634DFF3A)
 
-import pandas as pd
-import numpy as np
-import plotly.express as px
-from matplotlib.patches import Rectangle
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
-from shapely.geometry import Point
-import geopandas as gpd
-from geopandas import GeoDataFrame
-from geopy.geocoders import Nominatim
-import seaborn as sns
-from matplotlib import pyplot as plt
-```
+1 Bannai.com via facebook post: https://web.facebook.com/dataholicth/photos/a.110167148353487/145014661535402/<br />
+The data source can be accessed through this Google Sheet: 
+source: https://gobestimate.com/data?fbclid=IwAR1VAJP5mLxHPr4ia8BZBpqMd790CAmUPU-lmLQKzHmiJOgMBmWXCSSOLeo<br />
+copy:  https://docs.google.com/spreadsheets/d/1zEu6Lrk7LTGL3ukbJR7UwZf8f04hSeuOrIvdc2ClWyw/edit?fbclid=IwAR1IcEkPwaC_W-Gl3WXwANVj7T-Eo8bx9a8m6L4o-G7GqJvf7cRO1O2dRI0#gid=722411706<br />
+2 ประเมินราคาที่ดินในเขตกรุงเทพมหานคร  Bangkokgis  http://www.bangkokgis.com/modules.php?m=download_shapefile<br />
+ShapeFile ข้อมูลสารสนเทศภูมิศาสตร์ (แผนที่มาตราส่วน 1:20,000)<br />
+Shapefile คือข้อมูลสารสนเทศภูมิศาสตร์ประเภทหนึ่งที่เก็บข้อมูลอยู่ในรูปของเวคเตอร์ (Vector) ใน 3 ลักษณะ คือ จุด (Point) เส้น (Line) และรูปปิด (Polygon) ซึ่งจะแยกเก็บออกเป็นแต่ละชั้นข้อมูล (Layer)<br /> ซึ่ง Shape File หนึ่ง ๆ จะประกอบด้วยไฟล์อย่างน้อย 3 ไฟล์ที่มีการอ้างถึงกันและกันและไม่สามารถขาดไฟล์ใดไฟล์หนึ่งไปได้ ได้แก่ ไฟล์ประเภท (.shp) ไฟล์นี้จะประกอบไปด้วยข้อมูลเวคเตอร์แต่ละประเภท <br />ซึ่งแต่ละเวคเตอร์ประกอบเป็น Shape File นั้นจะอ้างอิงพิกัด UTM ไฟล์ประเภท (.dbf) ไฟล์นี้จะประกอบไปด้วยข้อมูลในรูปแบบตารางฐานข้อมูลเพื่อแสดงรายละเอียดของแต่ละเวคเตอร์ ไฟล์ประเภท (.shx) ไฟล์นี้จะทำหน้าที่ผสานไฟล์ (.shp) และ (.dbf) เข้าด้วยกัน<br />
 
-# Raw Dataset
-Dataset มีจำนวน 23604 rows , 45 columns เป็นข้อมูลที่เกี่ยวกับอสังหาอย่างเช่น ราคา ประเภทอสังหา เขต จังหวัด ละติจูด ลองติจูด เป็นต้น
+The dataset contains information about 23,604 real estate projects across Thailand. It includes details such as:
+Price
+Property type
+District
+Province
+Latitude & Longitude
+Facilities Offered
 ```
 RangeIndex: 23604 entries, 0 to 23603
 Data columns (total 45 columns):
@@ -95,8 +87,38 @@ Data columns (total 45 columns):
  44  url_project             23594 non-null  object 
 dtypes: float64(16), object(29)
 ```
+
+# Library and Installation
+Libraries and Installation
+This project utilizes several Python libraries for data manipulation, geospatial analysis, and visualization. Here's how to install the required libraries:
+```python
+pip install Shapely
+pip install geopandas
+pip install joypy
+
+!wget -q http://www.arts.chula.ac.th/ling/wp-content/uploads/TH-Sarabun_Chula1.1.zip -O font.zip
+!unzip -qj font.zip TH-Sarabun_Chula1.1/THSarabunChula-Regular.ttf
+# !pip install -U --pre matplotlib  
+import matplotlib as mpl
+mpl.font_manager.fontManager.addfont('THSarabunChula-Regular.ttf')
+mpl.rc('font', family='TH Sarabun Chula')
+
+import pandas as pd
+import numpy as np
+import plotly.express as px
+from matplotlib.patches import Rectangle
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+from shapely.geometry import Point
+import geopandas as gpd
+from geopandas import GeoDataFrame
+from geopy.geocoders import Nominatim
+import seaborn as sns
+from matplotlib import pyplot as plt
+```
+
 # Q&A:
-เนื่องจากเขียนเป็นบทความสามารถเข้าไปอ่านใน medium > https://medium.com/@row3no6/big-data-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%AD%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%9E%E0%B8%A2%E0%B9%8C%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-data-visualization-f17c079f4d67
+Read in medium for better format > https://medium.com/@row3no6/big-data-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%AD%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%9E%E0%B8%A2%E0%B9%8C%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-data-visualization-f17c079f4d67
 
 1.ราคาอสังหาริมทรัพย์น่าจะมีการแจกแจงแบบ Normal<br />
 คำตอบ คือมีลักษณะการกระจายตัวแบบไม่เป็น Normal แต่เป็นลักษณะเบ้ขวาและเมื่อดูจากทางด้านขวามี outlier<br />
@@ -200,12 +222,4 @@ https://miro.medium.com/max/1100/1*wkFt03GrqlMHOc1ZiI12jw.png
 
 
 
-# 4.Dataset
-![alt text](https://scontent.fbkk3-6.fna.fbcdn.net/v/t39.30808-6/295833511_145014654868736_3529467263153893155_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFk0ek4UyFEBk8VS5qlm-jnUFU3aE1H2qNQVTdoTUfao53JWzG3k46jpYlBG68mqKk&_nc_ohc=Lfl-OYKRLFoAX9PacXd&_nc_zt=23&_nc_ht=scontent.fbkk3-6.fna&oh=00_AT-PYdQe3R8H-V6XUwWcURbYwhqhzT23dWpx6tbOJWK8Fw&oe=634DFF3A)
 
-4.1 Bannai.com via facebook post: https://web.facebook.com/dataholicth/photos/a.110167148353487/145014661535402/<br />
-source: https://gobestimate.com/data?fbclid=IwAR1VAJP5mLxHPr4ia8BZBpqMd790CAmUPU-lmLQKzHmiJOgMBmWXCSSOLeo<br />
-copy:  https://docs.google.com/spreadsheets/d/1zEu6Lrk7LTGL3ukbJR7UwZf8f04hSeuOrIvdc2ClWyw/edit?fbclid=IwAR1IcEkPwaC_W-Gl3WXwANVj7T-Eo8bx9a8m6L4o-G7GqJvf7cRO1O2dRI0#gid=722411706<br />
-4.2 ประเมินราคาที่ดินในเขตกรุงเทพมหานคร  Bangkokgis  http://www.bangkokgis.com/modules.php?m=download_shapefile<br />
-ShapeFile ข้อมูลสารสนเทศภูมิศาสตร์ (แผนที่มาตราส่วน 1:20,000)<br />
-Shapefile คือข้อมูลสารสนเทศภูมิศาสตร์ประเภทหนึ่งที่เก็บข้อมูลอยู่ในรูปของเวคเตอร์ (Vector) ใน 3 ลักษณะ คือ จุด (Point) เส้น (Line) และรูปปิด (Polygon) ซึ่งจะแยกเก็บออกเป็นแต่ละชั้นข้อมูล (Layer)<br /> ซึ่ง Shape File หนึ่ง ๆ จะประกอบด้วยไฟล์อย่างน้อย 3 ไฟล์ที่มีการอ้างถึงกันและกันและไม่สามารถขาดไฟล์ใดไฟล์หนึ่งไปได้ ได้แก่ ไฟล์ประเภท (.shp) ไฟล์นี้จะประกอบไปด้วยข้อมูลเวคเตอร์แต่ละประเภท <br />ซึ่งแต่ละเวคเตอร์ประกอบเป็น Shape File นั้นจะอ้างอิงพิกัด UTM ไฟล์ประเภท (.dbf) ไฟล์นี้จะประกอบไปด้วยข้อมูลในรูปแบบตารางฐานข้อมูลเพื่อแสดงรายละเอียดของแต่ละเวคเตอร์ ไฟล์ประเภท (.shx) ไฟล์นี้จะทำหน้าที่ผสานไฟล์ (.shp) และ (.dbf) เข้าด้วยกัน<br />
