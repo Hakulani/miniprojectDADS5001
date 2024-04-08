@@ -243,27 +243,27 @@ https://github.com/Hakulani/miniprojectDADS5001/blob/main/file.html
 5. Disparate Bubble Sizes on Map<br />
 -Employed Min Max scaling to address the issue of vastly different bubble sizes.<br />
 
-Lessons Learned<br />
+# Lessons Learned<br />
+
 1. Data Exploration and Preparation<br />
+-Importance of exploring and understanding the data before analysis.<br />
+-Careful data preparation to ensure accuracy and reliability of results.<br />
 
-Importance of exploring and understanding the data before analysis.<br />
-Careful data preparation to ensure accuracy and reliability of results.<br />
 2. Time Management and Prioritization<br />
+-Effective time management and prioritization of tasks to mitigate the impact of unexpected challenges.<br />
+-Balancing academic commitments with personal health and well-being.<br />
 
-Effective time management and prioritization of tasks to mitigate the impact of unexpected challenges.<br />
-Balancing academic commitments with personal health and well-being.<br />
 3. Learning New Skills<br />
+-Willingness to learn new skills and technologies to address project requirements.<br />
+-Continuous learning and adaptation to improve analytical capabilities.<br />
 
-Willingness to learn new skills and technologies to address project requirements.<br />
-Continuous learning and adaptation to improve analytical capabilities.<br />
 4. Data Visualization<br />
+-Importance of data visualization in enhancing data comprehension and communicating insights effectively.<br />
+-Exploration of different visualization techniques to suit the specific data and audience.<br />
 
-Importance of data visualization in enhancing data comprehension and communicating insights effectively.<br />
-Exploration of different visualization techniques to suit the specific data and audience.<br />
 5. Problem Solving and Troubleshooting<br />
-
-Ability to identify and address data-related issues and challenges.<br />
-Adoption of a proactive approach to problem-solving and troubleshooting.<br />
+-Ability to identify and address data-related issues and challenges.<br />
+-Adoption of a proactive approach to problem-solving and troubleshooting.<br />
 
 # References
 # 1. Numpy
