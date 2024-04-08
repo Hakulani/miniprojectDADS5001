@@ -148,9 +148,11 @@ While the initial analysis suggested Kanchanaburi might have the highest median 
 In reality, #7Nakhon Ratchasima and #8Chonburi emerged as the provinces with the highest median and mean condo prices. 
 ![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/3928b0fe-9287-40d0-aa6b-8996fd91b70b)
 
-สำหรับอันดับ 1 กาญจนบุรี มีเพียง 1 โครงการ ราคา 9.9 ล้าน ซึ่งเมื่อทำการหาข้อมูลเพิ่มเติม ก็เจอว่าราคาจริงคือ 9.9แสน<br />
+For number 1, Kanchanaburi has only 1 project priced at 9.9 million, which when searching for more information, found that the actual price is 990,000.<br />
 ![image](https://user-images.githubusercontent.com/61573397/195841753-e58f236d-d740-4deb-885c-9d8974c22144.png)
-ทำการ Update ข้อมูลที่ถูกต้องไป ทำให้อันดับผู้นำเปลี่ยนแปลงกาญจนบุรีไปอยู่อันดับท้ายๆ ประจวบฯขึ้นมาอันดับ 1
+
+After updating the correct information causing the ranking of leaders to change Kanchanaburi to the last place Prachuap rose to number 1
+
 ![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/e787af64-1d1b-4526-9d15-a177c1cdeb6a)
 
 4.Prices of detached houses, twin houses, and townhomes: Bangkok is likely to be the highest?<br />
@@ -188,11 +190,11 @@ This suggests that land prices may play a more significant role in determining t
  
 ![image](https://user-images.githubusercontent.com/61573397/195839029-36767f61-3a52-4677-9de3-6cb593d6ca90.png)
 
-6.หากเราสร้าง Map Data Visualization ขึ้นมาน่าจะช่วยไขคำตอบที่เราสงสัยได้มากขึ้น<br />
-คำตอบ โดยสรุปการนำBig data มาสร้างเป็น Map Data Visualization ช่วยให้เราเข้าใจภาพรวมมากขึ้น และให้ขอมูลหลายๆอย่างที่กราฟให้ไม่ได้
+6.If we create Data Visualization demographic analytics, it should be able to help answer more of our questions?<br />
+ 
 ![image](https://github.com/Hakulani/miniprojectDADS5001/assets/61573397/55d82019-e647-452a-b42c-189587538e19)
 
-Map Data Visualization is a powerful tool that can help you see patterns and trends in your data that would be difficult to identify in a table or spreadsheet. By using different visual elements, such as color, size, and position, you can create a map that is both informative and easy to understand.
+Data Visualization demographic analytics is a powerful tool that can help you see patterns and trends in your data that would be difficult to identify in a table or spreadsheet. By using different visual elements, such as color, size, and position, you can create a map that is both informative and easy to understand.
 
 Components of the Map Data Visualization
 
@@ -214,7 +216,8 @@ Make data more engaging: Map Data Visualization can make data more engaging and 
 
 
 ![image](https://user-images.githubusercontent.com/61573397/195839107-295085b1-bc12-4eea-9400-a79504916e56.png)
-คอนโดชลบุรีอยู่ติดทะเล อาจจะทำให้ราคาค่อนข้างสูงเมื่อเปรียบเทียบกับราคาบ้านประเภทต่างๆ 
+Chonburi condo next to the sea This may cause the price to be quite high when compared to the prices of various types of houses.
+
 ![image](https://user-images.githubusercontent.com/61573397/195839145-74350628-ebd6-484b-8891-0f7d1a28cf25.png)
 
 สามารถ download HTML ใน githubนี้ได้
