@@ -117,31 +117,31 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 ```
 
-# Q&A:
+# Q&A: Key Findings
 Read in medium for better format > https://medium.com/@row3no6/big-data-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%AD%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%9E%E0%B8%A2%E0%B9%8C%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-data-visualization-f17c079f4d67
-
-1.ราคาอสังหาริมทรัพย์น่าจะมีการแจกแจงแบบ Normal<br />
-คำตอบ คือมีลักษณะการกระจายตัวแบบไม่เป็น Normal แต่เป็นลักษณะเบ้ขวาและเมื่อดูจากทางด้านขวามี outlier<br />
+This section explores interesting questions and insights derived from the data analysis:
+1.Price Distribution: Does the real estate price follow a normal distribution?<br />
+Ans.The analysis revealed a right-skewed distribution for property prices, with a longer tail towards higher values. Outliers were also identified on the higher end of the price range.<br />
 ![image](https://user-images.githubusercontent.com/61573397/195838421-9472cdfb-2c26-4674-a4e3-f7a36350837c.png)
 ![image](https://user-images.githubusercontent.com/61573397/195838254-b0a09ed5-5fc7-40ce-923b-3f69831914f4.png)
 
-2.ราคาบ้านเดี่ยว >บ้านแฝด>ทาวโฮม>คอนโด ทั้งในกรุงเทพ ปริมณฑล และต่างจังหวัด<br />
-คำตอบคือ ในกรุงเทพ บ้านเดียว>บ้านแฝด> ทาวโฮม>คอนโด
+2.Price Variation by Property Type: Is there a price difference between house and condo types across regions?<br />
+Ans.The project found that, in Bangkok, detached houses are generally the most expensive, followed by townhouses, semi-detached houses, and condominiums.
 ![image](https://user-images.githubusercontent.com/61573397/195838527-d64780ee-90fa-4a39-8b63-cb8c297c62dc.png)
-แต่ในจังหวัดระยองพบว่าราคาแต่ละประเภทไม่ได้แตกต่างกันมากเมื่อเทียบกับกรุงเทพ<br />
+However, the price differences between property types were less pronounced in other provinces like Rayong.<br />
 
 ![image](https://user-images.githubusercontent.com/61573397/195840161-f65062ac-cffc-45a4-8d7a-eb1e68e27e49.png)
 
-และจังหวัดนครราชสีมา และชลบุรี ราคาคอนโดค่อนข้างสูงเมื่อเทียบกับอสังหาประเภทอื่น  <br />
+Nakhon Ratchasima and Chonburi provinces, condo prices are quite high compared to other types of real estate.  <br />
 ![image](https://user-images.githubusercontent.com/61573397/195840210-005b5aca-5b43-4534-8f05-b2db483f0234.png)
 
 
-3.ราคาคอนโดชลบุรีและนครราชสีมาหากเรียงตาม mean และ median น่าจะติด TO10 แพงที่สุดในประเทศ<br />
-คำตอบคือใช่แต่อันดับ 1 กาญจนบุรี ไม่น่าจะถูกต้อง<br />
+3.Top Ranked Provinces by Median and Mean Price: Are expensive properties concentrated in specific areas?<br />
+While the initial analysis suggested Kanchanaburi might have the highest median price, further investigation revealed a data error. <br />
 ![image](https://user-images.githubusercontent.com/61573397/195843879-85fdc7b7-f000-4e9b-ae79-a999c2b9071c.png)
 
-median และ mean descending นครราชสีมาอันดับ 7 อันดับ 8 ชลบุรี สำหรับอันดับ 1 กาญจนบุรี มีเพียง 1 โครงการ ราคา 9.9 ล้าน ซึ่งเมื่อทำการหาข้อมูลเพิ่มเติม ก็เจอว่าราคาจริงคือ 9.9แสน<br />
-
+In reality, Nakhon Ratchasima and Chonburi emerged as the provinces with the highest median and mean condo prices. 
+สำหรับอันดับ 1 กาญจนบุรี มีเพียง 1 โครงการ ราคา 9.9 ล้าน ซึ่งเมื่อทำการหาข้อมูลเพิ่มเติม ก็เจอว่าราคาจริงคือ 9.9แสน<br />
 ![image](https://user-images.githubusercontent.com/61573397/195841753-e58f236d-d740-4deb-885c-9d8974c22144.png)
 
 ![image](https://user-images.githubusercontent.com/61573397/195840323-5fb1d399-53e2-4b16-84fd-4c26177c87e8.png)
